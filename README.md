@@ -13,8 +13,8 @@ Link da API [AQUI](https://pokeapi.co)
 
 ## Demonstração
 
-
-![image](https://user-images.githubusercontent.com/86200641/236877047-e600d8d2-be43-4efc-9aba-4628f9218040.gif)
+[GIF](https://raw.githubusercontent.com/TheGVictor/Pokedex-V1/master/pokedexDemo.gif)
+![image](https://user-images.githubusercontent.com/86200641/236877047-e600d8d2-be43-4efc-9aba-4628f9218040.img)
 
 
 
