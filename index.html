@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pokebola.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4259573733.js" crossorigin="anonymous"></script>
+    <title>PokeAPI</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div class="title">
+            <picture>
+                <img src="pokedex.png" alt="Pokedex Logo">
+            </picture>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="bar">
+            <input type="text" class="foundPokemon" placeholder="Your favorite Pokémon...">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+        </div>
+        <div class="content">
+            <div class="pokemonArea">
+                <div class="pokemonView">
+                <p class="pokemonName"></p>
+                <img class = "pokemonImage" alt="A image of Pokemon">
+                <span class="pokemonElement"></span>
+                <div class="buttonArea">
+                <button class="front selected">
+                    <img src="pokemonIconFront.png" alt="Icon Pokemon">
+                </button>
+                <button class="back">
+                    <img src="pokemonIconVerse.png" alt="Icon Pokemon">
+                </button>
+            </div>
+        </div>
+                <div class="pokemonSkills">
+                    <p>Height: <span class="height"></span>m</p>
+                    <p>Weight: <span class="weight"></span> kg</p>
+                    <p>Base XP: <span class="xp"></span> points</p>
+                    <p>Ability: <span class="ability"></span></p>
+                    <p>Moves:<span class="moves">
+                        <ul class="listMove">
+                            <li class="m1"></li>
+                            <li class="m2"></li>
+                            <li class="m3"></li>
+                        </ul>
+                    </span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footerSite">
+    <p>Feito por <span>Gabriel Sancinetti</span><br>
+    API: <a href="https://pokeapi.co/" target="_blank">PokeAPI</a></p>
+    <div class="link">
+    <a href="https://instagram.com/sancinetti_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://github.com/TheGVictor" target="_blank"><i class="fa-brands fa-github"></i></a>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

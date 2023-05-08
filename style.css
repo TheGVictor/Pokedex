@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.bar{
+    width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar i {
+    font-size: 35px;
+    margin-left: -60px;
+}
+
+.bar input {
+    width: inherit;
+    height: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    padding: 10px;
+}
+
+ .foundPokemon::placeholder {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(26,28,35, 0.8);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.pokemonArea {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.pokemonView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemonSkills{
+    text-transform: capitalize;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pokemonSkills p, li {
+    font-family: 'Righteous', cursive;
+    color: #666;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.pokemonSkills ul {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.pokemonSkills span, li{
+    font-size: 20px;
+    color: #474747;
+}
+
+.pokemonSkills p:not(span){
+    font-size: 18px;
+}
+
+.pokemonName{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-transform: capitalize;
+}
+
+.pokemonImage{
+    width: 120px;
+    height: 120px;
+}
+
+.pokemonElement {
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.fireElement {
+    background-color: #ff6741;
+}
+
+.waterElement {
+    background-color: #329cff;
+}
+
+.electricElement{
+    background-color: #FFCE31;
+}
+
+.grassElement{
+    background-color: #00b800;
+}
+
+.bugElement {
+    background-color: #A8B820;
+}
+
+.ghostElement{
+    background-color: rgb(112,88,152);
+}
+
+.poisonElement{
+    background-color: #A040A0;
+}
+
+.rockElement{
+    background-color: #B8A038;
+}
+
+.buttonArea {
+    margin-top: 20px;
+}
+
+.back, .front {
+    border-radius: 20px;
+    background-color: #FFCE31;
+}
+
+.selected {
+    border:4px solid #000;
+}
+
+.footerSite {
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+}
+
+.footerSite a {
+    text-decoration: none;
+    color: #489;
+    font-size: 18px;
+    transition: linear .1s;
+}
+
+.link i{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footerSite a:hover {
+    font-size: 19px;
+    color: #fcfcfc;
+    text-decoration:underline;
+}
+
+
+
+@media (max-width: 450px){
+    .title img{
+        width: 250px;
+    }
+
+    .bar {
+        width: 95%;
+        text-align: center;
+    }
+
+    .pokemonArea{
+        padding:10px 10px;
+    }
+
+    .pokemonSkills {
+        margin-left: 20px;
+        
+    }
+
+    .pokemonSkills p span, li{
+        font-size: 16px;
+        
+    }
+
+    .pokemonSkills ul {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    .m3 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px){
+    .bar {
+        width: 80%;
+    }
+}
