@@ -14,7 +14,7 @@ Link da API [AQUI](https://pokeapi.co)
 ## Demonstração
 
 
-![image](https://user-images.githubusercontent.com/86200641/236876435-dfd5115f-727b-4e7b-b75d-d943ac480506.png)
+(pokedexDemo.gif)
 
 
 
