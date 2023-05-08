@@ -209,8 +209,12 @@ body {
     }
 
     .bar {
-        width: 95%;
-        text-align: center;
+        width: inherit;
+        
+    }
+
+    .bar i {
+    display: none;
     }
 
     .pokemonArea{
@@ -238,8 +242,8 @@ body {
 
 }
 
-@media (max-width: 800px){
-    .bar {
-        width: 80%;
+@media (min-width: 800px) and (max-width:1024px){
+    .bar { 
+        width:80%;
     }
 }

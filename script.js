@@ -15,6 +15,7 @@ const m2 = document.querySelector('.m2')
 const m3 = document.querySelector('.m3')
 const xp = document.querySelector('.xp')
 
+
 //requisição HTTP
 const searchPokemon = async (pokemon) => {
     let url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`
@@ -109,14 +110,16 @@ const render = async (pokemon) => {
 search.addEventListener('keypress', (e) => {
 
     if(e.key === "Enter"){
-    render(search.value)
+    let res = search.value.toLowerCase()
+    render(res)
     btFront.classList.add('selected')
     btBack.classList.remove('selected')
     }
 })
 
 glass.addEventListener('click', () => {
-    render(search.value)
+    let res = search.value.toLowerCase()
+    render(res)
     btFront.classList.add('selected')
     btBack.classList.remove('selected')
 })
