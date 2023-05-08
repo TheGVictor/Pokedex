@@ -14,7 +14,9 @@ Link da API [AQUI](https://pokeapi.co)
 ## Demonstração
 
 [GIF](https://raw.githubusercontent.com/TheGVictor/Pokedex-V1/master/pokedexDemo.gif)
-![image](https://user-images.githubusercontent.com/86200641/236877047-e600d8d2-be43-4efc-9aba-4628f9218040.img)
+
+![image](https://user-images.githubusercontent.com/86200641/236877298-7b932176-1e28-4db4-a71f-d647d1250604.png)
+
 
 
 
