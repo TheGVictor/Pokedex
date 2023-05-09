@@ -25,4 +25,4 @@ Link da API [AQUI](https://pokeapi.co)
 
 ## Link do Projeto
 
-https://thegvictor.github.io/Pokedex-V1/
+https://thegvictor.github.io/Pokedex/
