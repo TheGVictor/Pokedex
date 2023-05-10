@@ -1,5 +1,5 @@
 
-# POKÉDEX - v1.0.2
+# POKÉDEX - v1.0.3
 
 PT-BR: O projeto consiste em consultar os pokémons (até gereneration-VII) e mostrar seus dados e habilidades. Versões futuras do projeto serão lançadas em breve!
 
