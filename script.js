@@ -32,7 +32,7 @@ const render = async (pokemon) => {
     img.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
     element.innerHTML = data['types']['0']['type'].name
     height.innerHTML = data.height/10
-    weight.innerHTML = data.weight
+    weight.innerHTML = data.weight/10
     ability.innerHTML = data['abilities']['0']['ability'].name
     m1.innerHTML = data['moves']['0']['move'].name
     m2.innerHTML = data['moves']['1']['move'].name
@@ -88,6 +88,54 @@ const render = async (pokemon) => {
         element.classList.remove('rockElement')
     }
 
+    if(data['types']['0']['type'].name === "psychic") {
+        element.classList.add('psychicElement')
+    }else {
+        element.classList.remove('psychicElement')
+    }
+
+    if(data['types']['0']['type'].name === "ground") {
+        element.classList.add('groundElement')
+    }else {
+        element.classList.remove('groundElement')
+    }
+
+    if(data['types']['0']['type'].name === "normal") {
+        element.classList.add('normalElement')
+    }else {
+        element.classList.remove('normalElement')
+    }
+
+    if(data['types']['0']['type'].name === "fighting") {
+        element.classList.add('fightingElement')
+    }else {
+        element.classList.remove('fightingElement')
+    }
+
+    if(data['types']['0']['type'].name === "fairy") {
+        element.classList.add('fairyElement')
+    }else {
+        element.classList.remove('fairyElement')
+    }
+
+    if(data['types']['0']['type'].name === "ice") {
+        element.classList.add('iceElement')
+    }else {
+        element.classList.remove('iceElement')
+    }
+
+    if(data['types']['0']['type'].name === "dark") {
+        element.classList.add('darkElement')
+    }else {
+        element.classList.remove('darkElement')
+    }
+
+    if(data['types']['0']['type'].name === "steel") {
+        element.classList.add('steelElement')
+    }else {
+        element.classList.remove('steelElement')
+    }
+
 
     //Evento dos botões frente e verso
     btBack.addEventListener('click', (pokemon) => {
@@ -114,6 +162,7 @@ search.addEventListener('keypress', (e) => {
     render(res)
     btFront.classList.add('selected')
     btBack.classList.remove('selected')
+    search.value = ''
     }
 })
 
