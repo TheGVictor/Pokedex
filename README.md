@@ -1,5 +1,5 @@
 
-# POKÉDEX - v1.0.0
+# POKÉDEX - v1.0.2
 
 PT-BR: O projeto consiste em consultar os pokémons (até gereneration-VII) e mostrar seus dados e habilidades. Versões futuras do projeto serão lançadas em breve!
 
@@ -25,4 +25,4 @@ Link da API [AQUI](https://pokeapi.co)
 
 ## Link do Projeto
 
-https://thegvictor.github.io/Pokedex-V1/
+https://thegvictor.github.io/Pokedex/
