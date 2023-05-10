@@ -178,4 +178,4 @@ reload.addEventListener('click', () => {
     document.location.reload(true)
 })
 
-render('1')
+render('2')
