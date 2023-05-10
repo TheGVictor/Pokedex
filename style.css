@@ -59,6 +59,9 @@ main {
 
 body {
     background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pokemonArea {
@@ -207,11 +210,9 @@ body {
 }
 
 .footerSite {
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
     background-color: #000;
     width: 100%;
-    position: absolute;
     color: #FFF;
     display: flex;
     text-align: center;
@@ -219,6 +220,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Calibri', sans-serif;
+    position: absolute
 }
 
 .footerSite a {
@@ -284,7 +286,7 @@ body {
 
 @media (min-width: 400px) and (max-width:1300px){
     .bar { 
-        width:70%;
+        width:90%;
     }
 }
 
