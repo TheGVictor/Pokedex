@@ -284,6 +284,26 @@ body {
 
 }
 
+@media(max-width:450px){
+    .bar {
+        margin-top: -50px;
+    }
+
+    .title {
+        padding: 0;
+        text-align: center;
+    }
+
+    .footerSite{
+        font-size: 13px;
+        height: fit-content;
+    }
+
+    .footerSite i{
+        font-size: 20px;
+    }
+}
+
 @media (min-width: 400px) and (max-width:1300px){
     .bar { 
         width:90%;
